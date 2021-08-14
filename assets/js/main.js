@@ -56,6 +56,24 @@ sr.reveal('.work__img',{interval: 200});
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
 
-
-
+/**** TYPED JS - CONFIG  ****/
+const typed = new Typed('.typed', {
+  strings: ['<i class="mascota"><i class="fas fa-chevron-right"></i>  Desarrollador Web <i class="fas fa-laptop-code"></i></i>',
+            '<i class="mascota"><i class="fas fa-chevron-right"></i>  Amo la Programación <i class="far fa-heart"></i></i>', 
+            '<i class="mascota"><i class="fas fa-chevron-right"></i>  Amante de Javascript  <i class="fab fa-js-square"></i></i>',
+            '<i class="mascota"><i class="fas fa-chevron-right"></i>  Aprendis Autodidacta <i class="fas fa-user-check"></i></i>'
+           ],
+           stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
+           typeSpeed: 75, // Velocidad en mlisegundos para poner una letra,
+           startDelay: 300, // Tiempo de retraso en iniciar la animacion. Aplica tambien cuando termina y vuelve a iniciar,
+           backSpeed: 75, // Velocidad en milisegundos para borrrar una letra,
+           smartBackspace: true, // Eliminar solamente las palabras que sean nuevas en una cadena de texto.
+           shuffle: false, // Alterar el orden en el que escribe las palabras.
+           backDelay: 1500, // Tiempo de espera despues de que termina de escribir una palabra.
+           loop: true, // Repetir el array de strings
+           loopCount: false, // Cantidad de veces a repetir el array.  false = infinite
+           showCursor: true, // Mostrar cursor palpitanto
+           cursorChar: '|', // Caracter para el cursor
+           contentType: 'html', // 'html' o 'null' para texto sin formato
+});
 
