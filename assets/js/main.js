@@ -59,8 +59,6 @@ sr.reveal('.contact__input',{interval: 200});
 /**** TYPED JS - CONFIG  ****/
 const typed = new Typed('.typed', {
   strings: ['<i class="mascota"><i class="fas fa-chevron-right"></i>  Desarrollador Web <i class="fas fa-laptop-code"></i></i>',
-            '<i class="mascota"><i class="fas fa-chevron-right"></i>  Amo la Programación <i class="far fa-heart"></i></i>', 
-            '<i class="mascota"><i class="fas fa-chevron-right"></i>  Amante de Javascript  <i class="fab fa-js-square"></i></i>',
             '<i class="mascota"><i class="fas fa-chevron-right"></i>  Aprendis Autodidacta <i class="fas fa-user-check"></i></i>'
            ],
            stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
